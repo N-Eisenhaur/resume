@@ -1,4 +1,19 @@
-br {
+ @import url('https://fonts.googleapis.com/css?family=Jomolhari&display=swap');
+
+
+ br {
     
     line-height:1.5em;/* chrome for instance */
   }
+
+body {
+  font-family: 'Jomolhari', serif;
+  margin-left: 250px;
+}
+ 
+.face {
+	float: right;
+	margin-right: 250px;
+	margin-top: 10px;
+}
+
