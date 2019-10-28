@@ -8,12 +8,22 @@
 
 body {
   font-family: 'Jomolhari', serif;
-  margin-left: 250px;
+  display: flex;
+  align-items: center;
+  flex-flow: column wrap;
+  height: 100%;
 }
  
-.face {
-	float: right;
-	margin-right: 250px;
-	margin-top: 10px;
+body section{ 
+
+ width: 40%;
+  height: 40%;
+
+}
+
+
+header .face {
+  display: flex;
+  justify-content: flex-end;
 }
 
