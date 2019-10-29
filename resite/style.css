@@ -12,13 +12,16 @@ body {
   align-items: center;
   flex-flow: column wrap;
   height: 100%;
+  background: linear-gradient(#ffffff , #a19b9b)
+  
+
 }
  
 body section{ 
 
  width: 40%;
   height: 40%;
-
+  
 }
 
 
