@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+</head>
+
+<body>
+
+
+<div id="el1"> Bob <!--anything in a div is .textContent   --> </div> 
+
+<div id="el2"> Nate </div>
+<div id="el3"> Dave</div>
+
+<script> // script tags whether inline or src work better below content in body
+   
+    function showMessage() {  // (name) represents showMessage 
+      alert( 'Hello ' +  this.textContent );  // (name) is showMessage
+      
+    }
+    
+    document.getElementById("el1").onclick=showMessage //this is el1
+    document.getElementById("el2").onclick=showMessage
+    document.getElementById("el3").onclick=showMessage
+    /*
+    showMessage("Bob"); //name is whatever has been passed in the () brackets in function above
+    
+    showMessage("Sam");
+    */
+    
+    
+    /*
+    function sum(a, b) {
+      return a + b;  // return means calculate
+    }
+    
+    let result = sum(1, 2); // (1,2) defines what is in function sum()
+    alert( result ); // show the result let result variable 
+    
+    // let or var = variable
+    // function is function and  what is in () loops with the variable below the function
+    
+    */
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+            </script>
+
+
+
+
+</body>
+
+
+</html>
