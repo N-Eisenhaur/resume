@@ -1,4 +1,4 @@
-burgerData = [
+let burgerData = [
     {
       "restaurant": "2 Doors Down",
       "address": "1533 Barrington Street",
@@ -1803,3 +1803,5 @@ burgerData = [
       ]
     }
   ]
+
+ 
