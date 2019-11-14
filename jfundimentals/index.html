@@ -12,11 +12,24 @@
 
         let numberOfBurgers = burgerData.length
 
-        console.log ("There were " + numberOfBurgers + " burgers in 2019");
+        let restaurant = burgerData[0].restaurant;
+        let name = burgerData[0].name;
+        let price = burgerData[0].price;
+        let desc = burgerData[0].desc;
 
-         console.log (`There were ${numberOfBurgers} burgers in 2019`);
 
 
+
+        console.log ("There were " + numberOfBurgers + " burgers in 2019"); //old syntax with + and double quotes ""
+
+         console.log (`There were ${numberOfBurgers} burgers in 2019`); // new with syntax ` $ and {}
+
+
+         console.log( burgerData[0].restaurant);
+         console.log( burgerData[0].name);
+         console.log( burgerData[0].price);
+         console.log( burgerData[0].desc);
+         // to get property of an array put arry[number of property starting with 0].name of property
 
     </script>
 </head>
@@ -31,10 +44,15 @@
     
     let element = document.getElementById("listing"); //this variable is div id listing in html outside script
     
-    element.innerHTML = `There were ${numberOfBurgers} burgers in 2019` 
+    element.innerHTML = `There were ${numberOfBurgers} burgers in 2019 ${restaurant} ${name} ${price} ${desc}` 
     
     
     
+    // innerhtml puts content in body tags
+
+    
+    
+    //variables go above function and array stuff
 
     
 
