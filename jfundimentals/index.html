@@ -57,13 +57,19 @@
 */
 
     for (let i= 0; i < burgerData.length; i++ ) { 
-    allBurgerNames = allBurgerNames + burgerData[i].name
+    allBurgerNames = allBurgerNames + "<li>"+ burgerData[i].name + "</li> "; 
+    //you can put an object in an empty variable by putting  = let + let
 
 
     }
 
 
  console.log (allBurgerNames)
+
+
+ element.innerHTML = ` <ul> ${allBurgerNames}  </ul> `;  // to make a ul put .innerhtml for single ul the li in for loop
+
+
 
 
 
