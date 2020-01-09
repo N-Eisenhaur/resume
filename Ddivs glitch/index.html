@@ -1,0 +1,169 @@
+
+
+<!DOCTYPE html5>
+
+<html lang="en">
+
+<head>
+
+  <title>draggydivs.js</title>
+
+  <style type="text/css">
+
+    body { background: rgb(39, 53, 180); margin: 20px; font-family: monospace; font-size: .9em; touch-action: none; font-family: 'Slabo 27px', serif;}
+
+    .draggydiv { background: #fff; width: 100px; border: 2px solid #000; }
+
+    .draggydiv .inner { padding: 10px; }
+
+    code { color: #666; font-style: italic; }
+
+    #one { width: 400px; left: 50px; top: 50px; }
+
+    #two { width: 320px; left: 500px; top: 150px; }
+
+    #three { width: 300px; left: 100px; top: 350px; }
+
+    #four { width: 700px; left: 475px; top: 500px; }
+
+    #five { width: 700px; left: 600px; top: 300px; }
+
+    button { margin: .5em; padding: .5em; background: #efefef; border: 2px solid black; }
+
+    button:hover { cursor: pointer; }
+
+    @import url('https://fonts.googleapis.com/css?family=Slabo+27px&display=swap');
+
+ p {color:rgb(133, 109, 1)} 
+
+  </style>
+
+  
+
+  <script src="draggydivs.js" defer></script>
+
+​
+
+</head>
+
+​
+
+<body>
+
+​
+
+  <div id="one" class="draggydiv" title="Hello Draggydivs!">
+
+    <button class="draggydivs-drag">DRAG</button>
+
+    
+
+    <div class="inner">
+
+      <h1>draggydivs.js Main Div</h1>
+
+      
+
+      <p>draggy-divs is a javascript file that makes your html elements draggable, minimizeable, exitable, incorrigible, etc.</p>
+
+      
+
+      <p>you can blame me, <a href="https://jennmoney.biz">jenn</a>, and <a href="https://glitch.com/edit/#!/draggydivs">view the source on glitch</a>!</p>
+
+      
+
+      <!-- a list with this class will be where minimized draggydivs' titles will be listed -->
+
+      <ul id="draggydivs-minimized"></ul>
+
+    </div>  
+
+  </div>
+
+  
+
+  <div id="two" class="draggydiv" title="How To Add Draggydivs To Your App">
+
+    <button class="draggydivs-drag">DRAG</button>
+
+    <button class="draggydivs-minimize">MINIMIZE</button>
+
+    
+
+    <div class="inner">
+
+      <h2>step one</h2>
+
+      <p>import <code>draggydivs.js</code> onto the html file containing the divs you want to make draggable. for example, if you want to add it to an html file in the same folder you put <code>draggydivs.js</code>, you'd add this to your html:</p>
+
+​
+
+      <p><code>&lt;script src="draggydivs.js"&gt;&lt;/script&gt;</code></p>
+
+    </div>
+
+  </div>
+
+  
+
+  <div id="three" class="draggydiv" title="How To Turn Divs Into Draggydivs">
+
+    <button class="draggydivs-drag">DRAG</button>
+
+    <button class="draggydivs-minimize">MINIMIZE</button>
+
+​
+
+    <div class="inner">
+
+      <h2>step two</h2>
+
+      
+
+      <p>to turn a div into a draggydiv, give it a class <code>draggydiv</code> and a unique title. inside this div you need to have a button of class <code>draggydivs-drag</code>, which is what the user can click to drag the div around.</p>
+
+      
+
+      <p>if you want the draggydiv to be minimizeable (optional!), you also need a button of class <code>draggydivs-minimize</code> inside of it. and somewhere you'll need to have an <code>ol</code> or <code>ul</code> element with the class <code>draggydivs-minimized</code>, which is where the draggydivs will be minimized to as links of the text you gave in the draggydiv's unique title.</p>
+
+    </div>
+
+  </div>
+
+  
+
+  <div id="four" class="draggydiv" title="Draggydiv Example Code">
+
+    <button class="draggydivs-drag">DRAG</button>
+
+    <button class="draggydivs-minimize">MINIMIZE</button>
+
+​
+
+    <div class="inner">
+
+      <h3>an example</h3>
+
+    </div>
+  </div>
+
+  <div id="five" class="draggydiv" title="How To Add Draggydivs To Your App">
+
+    <button class="draggydivs-drag">DRAG</button>
+
+    <button class="draggydivs-minimize">MINIMIZE</button>
+
+    
+
+    <div class="inner">
+
+      <h2>step one</h2>
+
+      <p>import <code>draggydivs.js</code> Hi im a test blahahahah
+​
+
+      <p><code>&lt;script src="draggydivs.js"&gt;&lt;/script&gt;</code></p>
+
+    </div>
+
+  </div>

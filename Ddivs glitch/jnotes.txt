@@ -1,0 +1,3 @@
+ask about nameless function
+whats the deal with the ! in !minimized list
+what is parseint doing
