@@ -140,7 +140,7 @@ ul.nav a, ul.nav a:visited {
 }
 
 
-.bg{
-background-image: url(file:///Users/nathan/Desktop/Work/class/bootsite/index.html/img/herod.jpg);
+.jumbotron jumbotron-fluid{
+background-image: url(herod.jpg);
 
 }
