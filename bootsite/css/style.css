@@ -90,7 +90,7 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 }
 ul.nav {
 	background-color: #048;
-	float: left;
+	
 	width: 100%;
 	font-style: normal;
 	font-weight: 500;
