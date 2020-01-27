@@ -4,7 +4,7 @@ body {
 	margin: 0;
 	padding: 0;
 	color: #000;
-	background-color: #2d2f37;
+	background-color: #304ab3;
 }
 
 /* ~~ Element/tag selectors ~~ */
@@ -141,8 +141,8 @@ ul.nav a, ul.nav a:visited {
 
 
 .jumbopic{
-background-image: url("../img/herob.jpg"); /* ../  picture.jpg is located in the folder one level up from the current folder */
-background-size: cover;
+background-image: url("../img/sky.jpg"); /* ../  picture.jpg is located in the folder one level up from the current folder */
+background-size: cover; /* Can I make image smaller to fit jumbotron  */
 }
 
 .navbar-toggler-icon{
