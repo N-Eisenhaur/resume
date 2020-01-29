@@ -9,7 +9,6 @@ $('#Ctext').on('click', function () {
     'really new text 3'
 
 
-
   ];
 // console logs between each step can tell you what your doing
 
@@ -23,10 +22,14 @@ console.log("indexed is"+indexed)
 
 var selectedValue = newText[indexed] ; // anything [] are numbers 
 
+//The above is not being used anymore
 
+
+
+var enteredValue = $('#formField').val() //finding input field 
 
   //Change the text using the text method.
-  $('#Mbox').text(selectedValue);
+  $('#Mbox').text(enteredValue); // links the input field (enterValue) swapping enterValue and selected Value will change how the message box works
 
 });
 
