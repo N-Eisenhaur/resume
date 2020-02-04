@@ -1,0 +1,42 @@
+/*
+
+  ADD YOUR STYLES HERE
+
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+
+
+
+p { color: blue;
+  transition: color 2s linear 3s;}
+
+ .sub{
+  background-color: #4CAF50;
+
+ }
+
+ textarea:focus, input:focus {
+    color: #ff0000;
+}
+
+
+
+body{
+  font-family: 'Raleway', sans-serif;
+
+}
+
+.circle {
+  height: 200px;
+  width: 200px;
+  background-color: pink;
+  border-radius: 50%;
+  transition-property: background-color;
+  transition-duration: 2s;
+  transition-timing-function: ease-in; }
+
+  .color{
+   background-color: blue;
+  }
