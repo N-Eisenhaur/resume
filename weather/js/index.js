@@ -1,8 +1,8 @@
-var api = "55d4f7e164b50a23056cf030f55ae99c";
+var api = "55d4f7e164b50a23056cf030f55ae99c"; //api key
 
 var weatherUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=Toronto&appid=" + api
 
-console.log(weatherUrl)
+console.log(weatherUrl) 
 
 
 
@@ -19,8 +19,8 @@ $(document).ready(function () {
     event.preventDefault()
 
 
-
-    var weatherUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=" + $("#iField").val() + "&appid=" + api
+    //take info from api weather link + what's in iField 
+    var weatherUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=" + $("#iField").val() + "&appid=" + api 
 
 
     $.get(weatherUrl, function (data) {
@@ -50,13 +50,13 @@ $(document).ready(function () {
     });
   });
 
-  $('input').focus(
+  $('input').focus(  //when click border green
     function () {
       $(this).css('border', '3px solid #00cc00');
     })
 
     .blur(
-      function () {
+      function () { //when not clicked border black
         $(this).css('border', '3px solid #000');
       });
 
