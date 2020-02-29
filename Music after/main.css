@@ -1,15 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Catamaran&display=swap');
+
+
+
+
 body {
     padding: 0;
     margin: 0;
     background: #f2f6e9;
     background-image: url(./img/bg.jpeg);
     background-size: cover;
+    font-family: 'Catamaran';
   }
   
   /*--- navigation bar ---*/
   
   .navbar {
-    background:#6ab446;
+    background:#030130;
   }
   
   .nav-link,
@@ -23,7 +29,8 @@ body {
   }
   
   .nav-link:hover {
-    color: #000;
+   text-decoration: underline rgb(255, 255, 255);
+   color: #fff;
   }
   
   .navbar-collapse {
@@ -69,4 +76,7 @@ body {
     background: rgba(255, 255, 255, 0.187);
   }
 
- 
+ .dropdown-item:hover{
+
+  text-decoration: underline;
+ }

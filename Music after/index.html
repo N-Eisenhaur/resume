@@ -20,72 +20,102 @@
     <title>Pryor Management</title>
 </head>
 
-<nav class="navbar navbar-expand-md">
+<body>
+
+    <nav class="navbar navbar-expand-md">
 
 
 
-    <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
-        <!--
+        <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+            <!--
         navbar-toggler — Denotes the toggle button for the collapsed menu. The piece data-toggle="collapse" defines that this will turn to a hamburger menu, not to drop-down, which is the other option. It’s important that you define a data-target with a CSS id (defined by the #) and wrap a div with the same name around the actual navbar element.-->
 
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="main-navigation">
-        <ul class="navbar-nav">
-            <!--
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="main-navigation">
+            <ul class="navbar-nav">
+                <!--
             navbar-nav — The class for the <ul> list element that holds the menu items. The latter are denoted with nav-item and nav-link.-->
-            <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Artists</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
 
-            <li class="nav-item">
-                <a class="nav-link" href="#">Events</a>
 
-            <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-            </li>
-        </ul>
-    </div>
-</nav>
+                <div class="dropdown">
 
-<div class="banner"> test </div>
+                    <a class="nav-item nav-link dropdown-toggle" data-toggle="dropdown" id="artistsDropdown"
+                        aria-haspopup="true" aria-expanded="false" href="#">Artists</a>
 
-<div class="overlay"></div>
+                    <div class="dropdown-menu" aria-labelledby="artistsDropdown">
+                        <a class="dropdown-item" href="#">Corey Adams</a>
+                        <a class="dropdown-item" href="#">Keonté Beals</a>
+                        <a class="dropdown-item" href="#">Hogtooth</a>
+                        <a class="dropdown-item" href="#">Marcell Symonds</a>
+                        <a class="dropdown-item" href="#">Stick & Slide</a>
+                    </div>
+                </div>
 
-<div class="container features">
 
-    <div class="row">
-        <div class="col-lg-4 col-md-4 col-sm-12">
 
-            <img src="./img/note1.jpg" class="img-fluid">
+
+
+
+
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Events</a>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="banner"> </div>
+
+    <div class="overlay"></div>
+
+    <div class="container features">
+
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12">
+
+                <img src="./img/note2.jpg" class="img-fluid">
+
+            </div>
+            <div class="col-lg-4 col-lg-7 col-sm-12">
+
+
+                <p>Welcome to the official website of Pryor Management. Based in the East Coast of Canada, we take pride
+                    in
+                    providing quality Entertainment Management, Artist Booking and Concert Promotion Services.
+
+                    Visit our website often for the latest information on the artist we manage and upcoming events.
+
+                    If you are an artist or looking to book an artist, we would love to hear from you. </p>
+            </div>
 
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-12">
-
-
-            <p>Welcome to the official website of Pryor Management. Based in the East Coast of Canada, we take pride in
-                providing quality Entertainment Management, Artist Booking and Concert Promotion Services.
-
-                Visit our website often for the latest information on the artist we manage and upcoming events.
-
-                If you are an artist or looking to book an artist, we would love to hear from you. </p>
-        </div>
 
     </div>
 
-</div>
+
+    <footer>
+
+        <div class="footer-copyright text-center">© 2020 Copyright: MyWebsite.com</div>
+
+    </footer>
 
 
-<footer> 
-    
-    <div class="footer-copyright text-center">© 2020 Copyright: MyWebsite.com</div>
+    <script src="js/jquery.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 
-</footer>
 
+</body>
 
 </html>
