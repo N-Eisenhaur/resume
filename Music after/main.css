@@ -1,15 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=Catamaran&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
 
-
+@import url('https://fonts.googleapis.com/css?family=Catamaran:700&display=swap');
 
 
 body {
     padding: 0;
     margin: 0;
-    background: #f2f6e9;
+    background: #090909;
     background-image: url(./img/bg.jpeg);
     background-size: cover;
-    font-family: 'Catamaran';
+    font-family: 'Nunito', sans-serif;
+    background-repeat: no-repeat;
   }
   
   /*--- navigation bar ---*/
@@ -62,21 +63,45 @@ body {
 
   .banner{
     height: 230px;
-    background-image: url(./img/banner.png);
+    background-image: url(./img/banner2.jpg);
     background-size: cover;
     
   }
 
   .overlay {
     position: absolute;
-    min-height: 68%;
+    min-height: 100%;
     min-width: 100%;
     left: 0;
     top: 290;
-    background: rgba(255, 255, 255, 0.187);
+    background: rgba(11, 10, 10, 0.187);
   }
 
  .dropdown-item:hover{
 
   text-decoration: underline;
  }
+.pageText{
+  font-weight: bold;
+  color:white;
+}
+ 
+#p1{
+  color: #cf0c59;
+  font-size: 72px;
+  font-weight: bold;
+  margin-left: 50px;
+  font-family: 'Catamaran';
+}
+
+#p2{
+color: white;
+text-transform: uppercase;
+margin-left: 200px;
+font-size: 20px;
+font-family: 'Catamaran';
+}
+
+footer{
+  color: white;
+}
