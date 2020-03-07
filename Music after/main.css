@@ -105,3 +105,17 @@ font-family: 'Catamaran';
 footer{
   color: white;
 }
+
+h3{
+  color: #fff;
+}
+
+.Norder{
+  list-style: none;
+  color: white;
+}
+
+
+.Norder a:hover{
+ text-decoration: underline;
+}
