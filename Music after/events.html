@@ -27,12 +27,12 @@
 
 
         <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
-         
+
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="main-navigation">
             <ul class="navbar-nav">
-              
+
                 <li class="nav-item">
                     <a class="nav-link" href="index.html">Home</a>
                 </li>
@@ -43,8 +43,8 @@
 
                 <div class="dropdown">
 
-                    <a class="nav-item nav-link dropdown-toggle" data-toggle="dropdown" id="artistsDropdown"
-                        aria-haspopup="true" aria-expanded="false" href="#">Artists</a>
+                    <a class="nav-item nav-link dropdown-toggle" id="artistsDropdown" aria-haspopup="true"
+                        aria-expanded="false" href="artist.html">Artists</a>
 
                     <div class="dropdown-menu" aria-labelledby="artistsDropdown">
                         <a class="dropdown-item" href="Cadams.html">Corey Adams</a>
@@ -100,25 +100,13 @@
 
                 <h3> Events:</h3>
 
-                <h3> Hogtooth </h3>
-                <p class="pageText"> Gus’s Pub
-                    January 3, 2020
-                    10:00pm-2:00am
 
-                    February 7, 2020
-                    Doors open at 9 </p>
+                    <div id="loader">
+                    </div>
 
-                <h3> Keonte Beals</h3>
-                <p class="pageText"> Marigold Theatre
-                    (Contact Marigold box office (902) 897-4004)
-                    Truro, NS
-                    February 7, 2020
-                    7:30pm </p>
 
-                <h3> Corey Adams & The All-Star Band</h3>
-                <p class="pageText"> Black Cultural Centre (10 Cherry Brook Road)
-                    February 22, 2020
-                    6:30 pm – 8:00 pm (doors open at 6pm) </p>
+                
+
 
 
             </div>
@@ -138,7 +126,18 @@
     <script src="js/jquery.slim.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-
+   
+    <script type="text/javascript" src="js/jquery-1.10.2.js"></script>	
+    <script type="text/javascript">
+        $(document).ready(function() {
+        
+           var url=$(this).attr('href'); // variable url this is the link in the code ie one two etc the attribute is a link
+           $('#loader').html( '<object data="https://www.facebook.com/pg/Pryor-Management-Events-100427648214343/events/?ref=page_internal/">');
+           return false;
+          });
+    
+        </script>
+        
 
 </body>
 

@@ -113,9 +113,19 @@ h3{
 .Norder{
   list-style: none;
   color: white;
+  padding: 0%;
 }
+
+.Norder li a{
+ 
+  color:#A2A2A1FF ;
+}
+
 
 
 .Norder a:hover{
  text-decoration: underline;
+}
+.dropdown:hover .dropdown-menu {
+  display: block !important;
 }
